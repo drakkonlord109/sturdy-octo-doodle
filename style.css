@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+
+.line {
+    width: 80px;
+    height: 7px;
+    margin: 8px auto;
+    background-color: firebrick;
+}
+
+#app {
+    background-color: aquamarine;
+    height: 800px;
+    width: 100%;
+}
+
+#Games {
+    background-color: limegreen;
+    height: 800px;
+    width: 100%;
+}
+
+img:hover {
+    transform: scale(0.5);
+}
+
+img {
+    transition: transform .2s;
+}
+
+
+#Chatbot {
+    background-color: azure;
+    height: 800px;
+    width: 100%;
+}
+
+#myCarousel {
+    background: rgb(34, 49, 195);
+    background: linear-gradient(0deg, rgba(34, 49, 195, 1) 0%, rgba(253, 45, 45, 1) 100%);
+}
